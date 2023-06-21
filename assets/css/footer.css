@@ -1,0 +1,50 @@
+.rodapie{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.rodapie__titulo{
+    display: flex;
+    color: #8C8888;
+    font-weight: 400;
+    font-size: 1.25rem;
+    align-items: center;
+}
+
+.rodapie__descripcion{
+    display: flex;
+    font-size: 1.7rem;
+    color: #8C8888;
+}
+
+.rodapie__lista{
+    display: flex;
+}
+
+.rodapie__item{
+    list-style: none;
+}
+
+.rodapie__icon{
+    margin-right: 0 1.25rem;
+}
+
+.rodapie__img{
+    width: 45px;
+}
+
+@media screen and (min-width:768px) {
+    .rodapie{
+        flex-direction: row;
+        padding: 5rem 2rem 0 2rem;
+    }
+    .rodapie__descripcion{
+        font-size: 1.9rem;
+    }
+    .rodapie__img{
+        width: 3.5rem;
+    }
+}
